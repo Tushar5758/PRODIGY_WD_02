@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #ff5349
+
+}
+
+.display {
+    font-size: 2em;
+    margin: 10px 0;
+   
+}
+
+button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.laps {
+    margin-top: 10px;
+}
+
+.heading {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
